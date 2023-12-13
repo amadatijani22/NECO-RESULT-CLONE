@@ -1,0 +1,100 @@
+.contianer{
+    display: flex;
+    gap: 100x;
+}
+.neco {
+    background-color: rgb(81, 181, 95);
+    padding: 50px;
+    width: 50%;
+}
+.heaer1{
+    margin-top: 100px;
+    margin-bottom:100px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.result{
+    width: 45%;
+    padding:0px 150px;
+}
+.grid-1{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    grid-column: 2px; 
+    gap: 10px;
+    align-content:space-evenly;
+    display: flex;
+    display: inline-block;
+    column-gap: 200px;
+    row-gap: 100px;
+    grid-gap: 10px;
+}
+
+.decoration{
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.yea{
+    width: 80%;
+    padding: 18px 20px ;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline-width: 0px;
+    background-color: rgb(243, 244, 246);
+    border: none;
+    justify-content: space-between;
+
+}
+
+.form{
+    width: 110%;
+    padding: 15px 18px;
+    height: none;
+    border-radius: 5px;
+    background-color: rgb(81, 181, 95);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+button.form{
+    border-color: none;
+    border-style: none;
+}
+
+.year{
+    width: 110%;
+    padding: 18px 20px;
+    border-radius: 5px;
+    outline-color: powderblue;
+    color: lightseagreen;
+    background-color: none;
+    border-style: solid;
+    background-color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+button{
+    border-style: solid;
+    border-color:rgb(85, 85, 233);
+}
+
+.account{
+    padding: 6% 0%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a.tags{
+    color: rgb(81, 181, 95);
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 300;
+}
